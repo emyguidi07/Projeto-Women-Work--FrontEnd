@@ -1,0 +1,370 @@
+@media screen and (max-width: 800px){
+    body{
+	width: 100%;
+	background-color:  #022840;
+    margin: 0px; 
+}
+#menu{
+	width: 100%;
+	display: table;
+	background-color:#052f46;
+}
+#menu ul li{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+    display:  inline;
+}
+#menu ul li img{
+	width: 3.3%;
+    height: 40%;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#menu ul li img a:hover{
+	background: #fff;
+    cursor:pointer;
+}
+/*notificações*/
+#publi1 div{
+    width: 80%;
+    height: 14%;
+    background-color:#052f46;
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+#publi1 div figure figcaption p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    margin-top:-11;
+    padding-bottom: 1%;
+}
+#publi1 div figure figcaption h1{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    margin-top: -15%;
+}
+#publi2 div{
+    width: 80%;
+    height: 40%;
+    background-color:#02283F;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px solid #032437;
+}
+#publi2 div figure figcaption p{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top:-2;
+    text-align: justify;
+}
+#publi2 div figure figcaption h1{
+    color:#fff;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -17%;
+}
+.img1{
+    width: 13%;
+    height: 50%;
+    margin-top: 4%;
+}
+.img2{
+    width:13%;
+    height:20%;
+    margin-top: 0.5%;
+    margin-left:-2%;
+}
+.img3{
+    width:7%;
+    height:15%;
+    margin-left: 20%;
+}
+.img4{
+    width:8%;
+    height:15%;
+}
+/*Ranking*/
+.ava{
+    color:#fff;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: -0.75%;
+}
+#rank div{
+    display: center;
+    width: 40%;
+    height:27%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    background-color: #022840;
+}
+#rank div figure img{
+    width: 40%;
+    height:50%;
+    margin-left:30%;
+    margin-top: 10%;
+}
+#rank div figure figcaption h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:20%;
+    padding-top: -3%;
+}
+/*Cargos*/
+#publi3 div{
+    width: 80%;
+    height: 16%;
+    background-color: #052f46;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+#publi3 div figure figcaption p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    margin-top: -12;
+}
+#publi3 div figure figcaption h1{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    margin-top: -16%;
+}
+.p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14%;
+    margin-top: -7; 
+    text-align: justify;
+}
+.img5{
+    width:13%;
+    height:50%;
+    margin-top: 4%;
+}
+#footer {
+    background-color: #052f46;
+    width: 100%;
+    margin: 0px;
+    height: 20%;
+}
+#footer p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:23px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-left: -15%;
+}
+}
+@media screen and (min-width: 1100px){
+body{
+	width: 100%;
+	background-color:  #022840;
+    margin: 0px; 
+}
+#menu{
+	width: 100%;
+	display: table;
+	background-color:#052f46;
+}
+#menu ul li{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style: none;
+    display:  inline;
+}
+#menu ul li img{
+	width: 5vh;
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#menu ul li img a:hover{
+	background: #fff;
+    cursor:pointer;
+}
+#publi1 div{
+    width: 60%;
+    height: 18%;
+    background-color:#052f46;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+#publi1 div figure figcaption p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top:-11;
+    padding-bottom: 1%;
+}
+#publi1 div figure figcaption h1{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -8%;
+}
+#publi2 div{
+    width: 60%;
+    height: 32%;
+    background-color:#02283F;
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 2px solid #032437;
+}
+#publi2 div figure figcaption p{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top:-12;
+    text-align: justify;
+}
+#publi2 div figure figcaption h1{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -10%;
+}
+.img1{
+    width:8.5vh;
+    height:8.5vh;
+    margin-top: 1%;
+}
+.img2{
+    width:8.5vh;
+    height:8.5vh;
+    margin-top: 0.5%;
+}
+.img3{
+    width:5%;
+    height:15%;
+    margin-left: 20%;
+}
+.img4{
+    width:5%;
+    height:15%;
+}
+.ava{
+    color:#fff;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: -0.75%;
+}
+#rank div{
+    display: center;
+    width: 40%;
+    height:45%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    background-color:#022840;
+}
+#rank div figure img{
+    width: 25vh;
+    height:25vh;
+    margin-left:25%;
+
+}
+#rank div figure figcaption h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:13%;
+    padding-top: -3%;
+}
+/*Cargos*/
+#publi3 div{
+    width: 60%;
+    height: 22%;
+    background-color: #052f46;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+#publi3 div figure figcaption p{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -12;
+}
+#publi3 div figure figcaption h1{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -8%;
+}
+.p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+    margin-top: -7; 
+    text-align: justify;
+}
+.img5{
+    width:8.5vh;
+    height:8.5vh;
+    margin-top: 1.5%;
+}
+#footer {
+    background-color: #052f46;
+    width: 100%;
+    margin: 0px;
+    height: 30%;
+}
+#footer p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+}

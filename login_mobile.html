@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/styleMobile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <title>Women work</title>
+
+        <script type="text/javascript">
+            function validar(){
+                var email = formLogin.email.value;
+                var senha = formLogin.senha.value;
+                var regex = /^(?=(?:.*?[A-Z]){3})(?=(?:.*?[0-9]){2})(?=(?:.*?[!@#$%*()_+^&}{:;?.]){1})(?!.*\s)[0-9a-zA-Z!@#$%;*(){}_+^&]*$/; 
+    
+                if (email == ""){
+                    alert("Por favor preencha o campo e-mail!");
+                    formLogin.email.focus();
+                    return false;
+                }
+                    else if (senha == ""){
+                    alert("Por favor preencha o campo senha!");
+                    formLogin.senha.focus();
+                    return false;
+                }
+    
+                if (senha.length < 8){
+                    alert("Senha incorreta!");
+                    return false;    
+                }
+    
+                window.location.href = "home_mobile.html"
+            }
+    
+            function recuperar(){
+                emailRec = prompt("Digite o email para recuperação de senha: ");
+                alert("Sua nova senha foi enviada para o email " +emailRec);
+                return true;
+            }
+
+            if (window.matchMedia("(min-width: 801px)").matches) {
+                window.location.href = "login.html";
+            } 
+    
+            </script>
+</head>
+
+<body>
+        <section id ='imagem'>
+        <figure>
+            <img src='images/logo.png'/>
+        </figure>
+        </section>
+            <form name="formLogin" class="formulario">                    
+                    <div>
+                   <input type="email" name="email" placeholder="E-mail" class="tx" />
+                </div>
+                
+                <div>
+                   <input type="password" name="senha" placeholder="Senha" class="tx" />
+                </div>
+
+                 <div>
+                    <botton type="submit" onclick="return validar();" class="bt">Entrar</botton>
+                   <input type="button" onclick="return recuperar();"  value="Esqueceu a Senha?" class="bt1" />
+                </div>
+                <div>
+                    <h3 id="forms">Ainda não está cadastrado?</h3>
+                    <botton class="bt"><a href="cadastro_mobile.html">Clique Aqui</a></botton>
+                </div>
+                
+             </form> 	
+            
+        </div>    
+    		
+     </section>
+        
+        <section id="text">
+            <div>
+                <h1>O que é a nossa empresa? </h1>
+                    <p>Somos responsáveis por promover uma maior equidade de gênero com empresas filiadas ao nosso aplicativo. Nosso objetivo é acabar com a desigualdade de gênero e valorizar a participação da mulher no mercado de trabalho, que mesmo crescente no PEA, ainda sofre muitas dificuldades.</p>
+                    <p>Acreditamos que a força feminina é a chave para melhorar a desigualdade de gênero no trabalho, por isso, criamos a Women Work: para unir mulheres de diversas áreas profissionais e promover maior chance de oportunidade de cargos e/ou empregos.</p>
+                    <p>Nossas empresas parceiras buscam maior diversidade com seus empregados, as empresas que se destacarem por maior equidade com as funcionárias, entram para nosso ranking de melhores contratantes, garantindo credibilidade e qualidade do ambiente de trabalho</p>
+                    <p>Entre para a nossa comunidade, ache empregos de acordo com seu currículo ou nos envie sua proposta de trabalho. A força para mudar nosso mundo e sociedade começa por você!</p>
+                    <p>Venha para a Women Work!</p>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div>
+                <footer>
+                    <p>@Copyright 2020-2020</p>
+                    <p>Todos os direitos reservados</p>
+                </footer>
+            </div>
+        </section>
+        
+</body>
+</html>

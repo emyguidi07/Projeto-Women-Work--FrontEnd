@@ -1,0 +1,2 @@
+[1020/174340.299:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\emygu\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\e839e4b8-d3ea-4b1c-b5e9-9fdb7cff61f1: O sistema não pode encontrar o caminho especificado. (0x3)
+[1022/091103.261:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
